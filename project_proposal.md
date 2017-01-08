@@ -9,6 +9,8 @@ You don't need a lot, but try to fit this basic guideline.
 * Max number of Contributors (e.g. < 10)
 
 Paste these details into the #newprojectproposals slack channel and ask about interest and scope.
+Also paste these details into a Markdown file in the [Project Ideas](https://github.com/StayWokeOrg/project-ideas) repository.
+We want to keep a record of everything that gets proposed.
 
 After receiving feedback on your project, start a repository in the StayWokeOrg organization with an MIT license and a README.md file that describes the project.
 In that README.md file, list out the project originators and the languages used.
