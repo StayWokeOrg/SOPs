@@ -22,6 +22,15 @@ There are two main options: a detour through a non-GitHub client or creating a n
 - The public companion will make a new branch from the project's `development` branch and copy all of your code into that new branch
 - They will push that branch up to the GitHub repo and it will then go through the merge process
 
+## Creating a Patch
+
+- Clone the repo
+- Create your branch `git checkout -b your_branch_name`
+- Make changes and commit
+- Create your patch file with `git format-patch master --stdout > your_branch_name.patch`
+- Edit the patch file to ensure that you remove any identifying information
+- Share the diff/file via email, pastebin, or another anonymous method
+
 We all want to do good work, and definitely don't want anyone's life negatively impacted if they're not ready for that load.
 
 Cheers.
