@@ -29,7 +29,7 @@ There are two main options: a detour through a non-GitHub client or creating a n
 - Make changes and commit
 - Create your patch file with `git format-patch master --stdout > your_branch_name.patch`
 - Edit the patch file to ensure that you remove any identifying information
-- Share the diff/file via email, pastebin, or another anonymous method
+- Share the diff/file via the slack channel, email (TBD), pastebin, or another anonymous method
 
 We all want to do good work, and definitely don't want anyone's life negatively impacted if they're not ready for that load.
 
