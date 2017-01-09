@@ -4,4 +4,5 @@ We need a code of conduct for the entire StayWokeOrg that covers broad issues fo
 
 * http://couchdb.apache.org/conduct.html
 * http://www.pyladies.com/CodeOfConduct/
+* http://contributor-covenant.org/version/1/4/
 * (add your own)
