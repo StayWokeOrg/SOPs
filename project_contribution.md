@@ -59,9 +59,11 @@ Make your changes, commit them, and push up to your *local* repo for that branch
 ```bash
 touch new-file.text
 git add new-file.txt
-git commit -m "Added new-file.text"
+git commit -m "Added new-file.text. Fixes #123"
 git push origin my-feature-name
 ```
+
+> Note: Make sure to reference an issue the commit/PR resolves, if any. The syntax that GitHub will use to parse and auto-close the issue is either "Fixes #{issueNumber}" or "Closes #{issueNumber}", and this syntax can be used either in the commit or the pull request.
 
 Now, you can create a PR in the GitHub user interface. Visit your repo and click the "New Pull Request" button, and you can create your PR from there.
 
